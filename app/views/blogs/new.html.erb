@@ -1,0 +1,14 @@
+<h1> NEW POST! </h1>
+
+<%= form_for @blog do |f| %>
+
+  <%= f.label :title %>
+  <%= f.text_field :title %><br>
+
+  <%= f.label :description %> 
+  <%= f.text_field :description %><br>
+
+<%= f.submit %>
+
+
+<% end %>
